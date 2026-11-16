@@ -1,5 +1,5 @@
-class Sc < Formula
-  desc "Code quality and test coverage analysis for software repositories"
+class ScorecardCli < Formula
+  desc "Scorecard (scorecard-cli), local code-quality gate; not OpenSSF Scorecard"
   homepage "https://github.com/moonbase2090/Scorecard"
   license any_of: ["Apache-2.0", "MIT"]
 

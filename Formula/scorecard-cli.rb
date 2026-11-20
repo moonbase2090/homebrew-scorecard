@@ -1,27 +1,27 @@
 class ScorecardCli < Formula
   desc "Scorecard (scorecard-cli), local code-quality gate; not OpenSSF Scorecard"
   homepage "https://github.com/moonbase2090/Scorecard"
-  license any_of: ["Apache-2.0", "MIT"]
+  license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/moonbase2090/Scorecard/releases/download/v0.1.14/sc-v0.1.14-aarch64-apple-darwin.tar.gz"
-      sha256 "c10691fc29f5d68d2ccfa7d3ca492b2389c600370fe650459ab6c29f9f7dbd14"
+      url "https://github.com/moonbase2090/Scorecard/releases/download/v0.2.1/sc-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "2aec7af95dde53baf984ee871d6d04b7c93bbd29868fe012208c6f48d1ee6bac"
     end
     on_intel do
-      url "https://github.com/moonbase2090/Scorecard/releases/download/v0.1.14/sc-v0.1.14-x86_64-apple-darwin.tar.gz"
-      sha256 "46a3b5a48283a96726dbd3395be9870325caf033ffeb9444c23b22932bf67c36"
+      url "https://github.com/moonbase2090/Scorecard/releases/download/v0.2.1/sc-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "c702fc0abdba2e54dc940ca556a2731a8bcc75ce65f00ce62b0f04caf366e5ff"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/moonbase2090/Scorecard/releases/download/v0.1.14/sc-v0.1.14-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a7fb9419e0b65aaff10bf37fae0fdd166b285b1370e3ab12c3437f016c409912"
+      url "https://github.com/moonbase2090/Scorecard/releases/download/v0.2.1/sc-v0.2.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b2b13dd5be557c1969e599d56d6ff284d26498ea3b54e89e29201d56dc9d33af"
     end
     on_intel do
-      url "https://github.com/moonbase2090/Scorecard/releases/download/v0.1.14/sc-v0.1.14-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "107b49f0c643db045df2349c37429c2e150b6b274b1eb992660031e221747b1b"
+      url "https://github.com/moonbase2090/Scorecard/releases/download/v0.2.1/sc-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ee836e65c16e1c6c4d1c9cf3fb3ddc866bf6088d2ff24ddd6298b39a6f543acd"
     end
   end
 
